@@ -1,0 +1,8 @@
+.App {
+  display:flex;
+  justify-content: center;
+  background-color: #000000;
+  min-height: 100vh;
+  min-width: 93vw;
+}
+

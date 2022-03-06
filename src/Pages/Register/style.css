@@ -1,0 +1,102 @@
+.registerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px 20px 0px;
+    width: 92.5vw;
+    max-width: 380px;
+}
+.logo{
+    font-size: 20px;
+    color: #FF577F;
+    margin-left: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.returnButton{
+    width: 80px;
+    height: 25px;
+    margin-right: 15px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #F8F9FA;
+    background: #212529;
+    border-radius: 4px;
+    border: #212529 1px solid;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+.formContainerRegister{
+    background-color: #212529;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 92.5vw;
+    max-width: 380px;
+    margin-bottom: 35px;
+}
+.text1{
+    color: #F8F9FA;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.text2{
+    color: #868E96;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 18px;
+    margin-bottom: 0px;
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 83vw;
+    max-width: 332px;
+}
+.registerLabel{
+    color: #F8F9FA;
+    font-size: 14px;
+    align-self:flex-start;
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+}
+.input{
+    width: 83vw;
+    height: 40px;
+    box-sizing: border-box;
+    background: #343B41;
+    border: 1px solid #343B41;
+    border-radius: 3px;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #868E96;
+    padding-left: 5px;
+    margin-top: 17px;
+    max-width: 332px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.registerSubmitButton{
+    background: #59323F;
+    width: 83vw;
+    height: 40px;
+    border: 1px solid #59323F;
+    border-radius: 4px;
+    margin: 17px 0px 50px 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 21px;
+    color: #ffffff;
+    max-width: 332px;
+    cursor: pointer;
+}

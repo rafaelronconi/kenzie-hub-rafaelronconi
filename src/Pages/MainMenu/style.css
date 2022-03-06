@@ -1,0 +1,72 @@
+.headerMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px 20px 0px;
+    width: 92.5vw;
+    max-width: 800px;
+}
+.menuContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userInfo{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    border-top: #212529 1px solid;
+    border-bottom: #212529 1px solid;
+    box-sizing: border-box;
+}
+.userInfo div{
+    width: 90vw;
+    padding-left: 30px;
+    align-self: flex-start;
+}
+.welcomeText{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #f8f9fa
+}
+.module{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    color: #868E96;;
+}
+.techsHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.techsContainer p{
+    color: #f8f9fa;
+}
+.addButton{
+    background-color: #212529;
+    width: 32px;
+    height: 32px;
+    border: 1px #212529 solid;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 770px){
+    .userInfo div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        max-width: 800px;
+    }
+}
+button{
+    cursor: pointer;
+}
