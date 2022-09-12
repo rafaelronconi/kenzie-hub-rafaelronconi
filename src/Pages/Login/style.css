@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .title{
     font-family: 'Inter', sans-serif;
@@ -111,29 +112,4 @@
     cursor: pointer;
     font-family: 'Inter', sans-serif;
     max-width: 360px;
-}
-
-@media (min-width: 426px){
-    .title{
-        font-size: 28px;
-    }
-    .loginTitle{
-        font-size: 22px;
-    }
-    .label{
-        font-size: 16px;
-    }
-    .registerText{
-        font-size: 14px;
-    }
-}
-
-@media (min-width: 1025px){
-    .formContainer{
-        height: 450px;
-    }
-    .inputEmail, .inputPassword, .loginBuntton, .registerButton{
-        height: 50px;
-        font-size: 18px;
-    }
 }
